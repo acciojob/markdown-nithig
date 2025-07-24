@@ -71,3 +71,20 @@
   padding: 2px 4px;
   border-radius: 4px;
 }
+.app .container {
+  display: flex;
+  gap: 1rem;
+}
+
+.textarea {
+  width: 50%;
+  height: 300px;
+}
+
+.preview {
+  width: 50%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  height: 300px;
+}
